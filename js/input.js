@@ -48,7 +48,7 @@ function onKeyDown(e) {
 
 function onKeyUp(e) {
 	if (e.keyCode == 65) {  // A = left
-		handleKeyInput("down", "up");
+		handleKeyInput("left", "up");
 	} else if (e.keyCode == 87) {  // W = up
 		handleKeyInput("up", "up");
 	} else if (e.keyCode == 68) {  // D = right
