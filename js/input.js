@@ -47,17 +47,17 @@ function onKeyDown(e) {
 }
 
 function onKeyUp(e) {
-	if (e.keyCode == 37) {  // left
+	if (e.keyCode == 65) {  // A = left
 		handleKeyInput("left", "up");
-	} else if (e.keyCode == 38) {  // up
+	} else if (e.keyCode == 87) {  // W = up
 		handleKeyInput("up", "up");
-	} else if (e.keyCode == 39) {  // right
+	} else if (e.keyCode == 68) {  // D = right
 		handleKeyInput("right", "up");
-	} else if (e.keyCode == 40) {  // down
+	} else if (e.keyCode == 83) {  // S = down
 		handleKeyInput("down", "up");
-	} else if (e.keyCode == 88) {  // X = B
+	} else if (e.keyCode == 190) {  // . = B
 		handleKeyInput("B", "up");
-	} else if (e.keyCode == 90) {  // Z = A
+	} else if (e.keyCode == 188) {  // , = A
 		handleKeyInput("A", "up");
 	}
 }
