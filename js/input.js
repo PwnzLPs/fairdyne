@@ -1,6 +1,6 @@
 key_is_down = {};
 
-// Last update: 3/20/17 - Updated Key Inputs
+// Last update: 3/21/17 - Updated Key Inputs
 function handleKeyInput(key, dir) {
 
 	if (!game_started) return false;
