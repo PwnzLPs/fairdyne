@@ -83,7 +83,7 @@ GameState.prototype.restartGame = function(difficulty) {
 				case "hard":
 					heart.setMaxHP(20); break;
 				case "genocide":
-					heart.setMaxHP(4); break;
+					heart.setMaxHP(16); break;
 			}
 		}
 		difficulty = "aprilfools";
