@@ -5,7 +5,7 @@ function init_game() {
 
 	splash_animation = new SplashScene();
 	gamestate = new GameState();
-	undyne = new Undyne();
+	undyne_the_undying = new Undyne_The_Undying();
 	box = new Box();
 	heart = new Heart();
 	menu = new Menu();
