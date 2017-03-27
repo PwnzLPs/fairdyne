@@ -32,6 +32,18 @@ graphics_loader
 	.add("undyne_legs", "img/undyne_legs.png")
 	.add("undyne_rightarm", "img/undyne_rightarm.png")
 	.add("undyne_skirt", "img/undyne_skirt.png")
+	.add("undying", "img/genocide/undying.png")
+	.add("undying_breastplate", "img/genocide/undying_breastplate.png")
+	.add("undying_hair", "img/genocide/undying_hair.png")
+	.add("undying_head1", "img/genocide/undying_head1.png")
+	.add("undying_head4", "img/genocide/undying_head_hurt.png")
+	.add("undying_head2", "img/genocide/undying_head_annoyed.png")
+	.add("undying_head3", "img/genocide/undying_head_angry.png")
+	.add("undying_headbeam", "img/genocide/undying_headbeam.png")
+	.add("undying_leftarm", "img/genocide/undying_leftarm.png")
+	.add("undying_legs", "img/genocide/undying_legs.png")
+	.add("undying_rightarm", "img/genocide/undying_rightarm.png")
+	.add("undying_skirt", "img/genocide/undying_skirt.png")
 
 	.on("complete", function(loader, resources) {
 		process_graphics(resources);
@@ -83,6 +95,35 @@ function process_graphics(resources) {
 	for (var a = 0; a < undyne_head_textures.length; ++a) {
 		undyne_head_textures[a].baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
 	}
+
+	undying_hair_textures[0] = resources["undying_hair"].texture;
+	undying_hair_textures[1] = resources["undying_hair"].texture;
+	undying_hair_textures[2] = resources["undying_hair"].texture;
+	undying_hair_textures[3] = resources["undying_hair"].texture;
+	for (var a = 0; a < undying_hair_textures.length; ++a) {
+		undying_hair_textures[a].baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
+	}
+
+	undying_head_textures[0] = resources["undying_head1"].texture;
+	undying_head_textures[1] = resources["undying_head2"].texture;
+	undying_head_textures[2] = resources["undying_head3"].texture;
+	undying_head_textures[3] = resources["undying_head4"].texture;
+	for (var a = 0; a < undying_head_textures.length; ++a) {
+		undying_head_textures[a].baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
+	}
+	undying_headbeam_texture = resources["undying_headbeam"].texture;
+	undying_headbeam_texture.baseTexture.scaleMode = PIXI.SCALEMODES.NEAREST;
+
+	undying_breastplate_texture = resources["undying_breastplate"].texture;
+	undying_breastplate_texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
+	undying_leftarm_texture = resources["undying_leftarm"].texture;
+	undying_leftarm_texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
+	undying_legs_texture = resources["undying_legs"].texture;
+	undying_legs_texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
+	undying_rightarm_texture = resources["undying_rightarm"].texture;
+	undying_rightarm_texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
+	undying_skirt_texture = resources["undying_skirt"].texture;
+	undying_skirt_texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
 
 	undyne_breastplate_texture = resources["undyne_breastplate"].texture;
 	undyne_breastplate_texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
