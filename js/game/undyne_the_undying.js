@@ -1,4 +1,4 @@
-var undyne;
+var undyne_the_undying;
 
 var undying_texture;
 var undying_head_textures = Array(4);
@@ -12,7 +12,7 @@ var undying_hair_textures = Array(4);
 var speech_bubble_texture;
 var speech_bubble_text;
 
-function Undyne() {
+function Undyne_The_Undying() {
 
 	this.animation_state = "breathing";
 	this.animation_time = 0;
