@@ -241,6 +241,12 @@ function endGameText(diff, surv_time) {
 				];
 			}
 		case "hard":
+			//if (surv_time < 6890) {
+				//if (annoyance > 2)
+					//return [
+						//{ text: "Grrrr...", face: 3 },
+						//{ text: "Look, I know. You must be bored.", face: 2 },
+						//{ text: "But you should still try as hard as you face.", face: 2 },
 			if (surv_time < 60000)
 				return [
 					{ text: "Is that the best\nyou've got?" },
