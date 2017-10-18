@@ -42,6 +42,40 @@
 
 	<script src="js/input.js"></script>
 	<script src="js/main.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+
+	<button id="mute_all">Mute all</button> | 
+	<button id="unmute_all">UnMute all</button>
+	<br/>
+   	 <script>
+    	$(document).ready(function(){
+
+       /*** Mute all ***/
+       $('#mute_all').on('click',function(){
+
+          /*** Mute all video and audio on page ***/
+          $('body video, body audio').each(function(){
+             /*** Do it here globally ***/
+             $(this).prop('muted', true);
+          });
+
+       });
+      
+       /*** UnMute all ***/
+       $('#unmute_all').on('click',function(){
+
+          /*** Un Mute all video and audio on page ***/
+          $('body video, body audio').each(function(){
+             /*** Do it here globally ***/
+             $(this).prop('muted', false);
+          });
+
+       });
+      
+      
+    });
+    </script>
 
 </head>
 
