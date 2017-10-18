@@ -1,0 +1,2 @@
+Howler.mute(true) //Mutes audio from howler output globally
+Howler.mute(false) //Unmutes audio from howler output globally
