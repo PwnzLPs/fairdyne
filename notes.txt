@@ -1,2 +1,27 @@
 Howler.mute(true) //Mutes audio from howler output globally
 Howler.mute(false) //Unmutes audio from howler output globally
+
+
+Global Methods
+
+The following methods are used to modify all sounds globally, and are called from the Howler object.
+
+mute(muted)
+
+Mute or unmute all sounds.
+
+muted: Boolean True to mute and false to unmute.
+volume([volume])
+
+Get/set the global volume for all sounds, relative to their own volume.
+
+volume: Number optional Volume from 0.0 to 1.0.
+codecs(ext)
+
+Check supported audio codecs. Returns true if the codec is supported in the current browser.
+
+ext: String File extension. One of: "mp3", "mpeg", "opus", "ogg", "oga", "wav", "aac", "caf", m4a", "mp4", "weba", "webm", "dolby", "flac".
+unload()
+
+Unload and destroy all currently loaded Howl objects. This will immediately stop all sounds and remove them from cache.
+
