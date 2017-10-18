@@ -125,3 +125,6 @@ var se_undyne = new Howl({
 	loop: false,
 	volume: 0.7,
 });
+
+<button onclick="Howler.mute(true)">Mute Sound</button>
+<button onclick="Howler.mute(false)">Unmute Sound</button>
