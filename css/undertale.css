@@ -42,3 +42,5 @@ a{
 a:hover{
 	color: #33cccc;
 }
+
+.mute, .unmute {width:54px;height:31px;}
