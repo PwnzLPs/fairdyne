@@ -1,6 +1,8 @@
 Howler.mute(true) //Mutes audio from howler output globally
 Howler.mute(false) //Unmutes audio from howler output globally
 
+https://stackoverflow.com/questions/9843543/making-js-buttons-that-toggle-their-image-on-click
+http://jsfiddle.net/JPWCQ/3/
 
 Global Methods
 
