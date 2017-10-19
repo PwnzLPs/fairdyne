@@ -22,7 +22,8 @@ div.top-buttons{
 	bottom: 0;
 	left: calc(50%-210px);
 	width: 54px;
-	padding: 8px 0;
+	margin: 8px;
+	padding: 8px;
 	overflow: hidden;
 	transition: all 0.3s ease;
 }
