@@ -47,23 +47,23 @@
 </head>
 
 <body>
-	<input type="image" src="img/mutebox.png" class="mute" onclick="toggle(this);"/>
+	<input type="image" src="img/mutebox.png" class="unmuted" onclick="toggle(this);"/>
 	<script>
 		function toggle(el){
-			if(el.className!="mute")
+			if(el.className!="unmuted")
 			{
 				el.src='img/mutebox.png';
-				el.className="mute";
+				el.className="unmuted";
 				Howler.volume(0.7);
 			}
-			else if(el.className=="mute")
+			else if(el.className=="unmuted")
 			{
 				el.src='img/unmutebox.png';
-				el.className="unmute";
+				el.className="muted";
 				Howler.volume(0.0);
 			}
 			return false;
-		
+		}
 	</script>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
