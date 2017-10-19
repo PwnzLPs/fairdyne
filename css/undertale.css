@@ -13,6 +13,20 @@ canvas {
 	margin: 40px auto;
 }
 
+div.top-buttons{
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+	line-height: 15px;
+	height: 31px;
+	bottom: 0;
+	left: calc(50% - 210px);
+	width: 54px;
+	padding: 8px 0;
+	overflow: hidden;
+	transition: all 0.3s ease;
+}
+
 div.bottom-credits{
 	position: absolute;
 	text-align: center;
