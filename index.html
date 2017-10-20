@@ -4,7 +4,7 @@
 	<!-- EDITED BY PWNZLPS
 	LAST UPDATE: 3/27/17 - 1:10PM -->
 	<meta charset=utf-8>
-	<title>NGAHHH! Simulator v0.69 Common Test 4</title>
+	<title>NGAHHH! Simulator v0.69.1 Common Test</title>
 	<link rel="stylesheet" href="css/undertale.css">
 
 	<script src="lib/lodash.min.js"></script>
@@ -47,19 +47,23 @@
 
 <body>
 	<div class="top-buttons">
-		<input type="image" src="img/mutebox.png" width="108" height="62" class="unmuted" onclick="toggle(this);"/>
+		<input type="image" src="img/mutebox.png" width="162" height="93" class="unmuted" onclick="toggle(this);"/>
 	<script>
 		function toggle(el){
 			if(el.className!="unmuted")
 			{
 				el.src='img/mutebox.png';
 				el.className="unmuted";
+				el.Width="162";
+				el.Height="93";
 				Howler.volume(0.7);
 			}
 			else if(el.className=="unmuted")
 			{
 				el.src='img/unmutebox.png';
 				el.className="muted";
+				el.Width="162";
+				el.Height="93";
 				Howler.volume(0.0);
 			}
 			return false;
@@ -78,7 +82,7 @@
 	</script>
 
 	<div class="bottom-credits">
-		<p><span><span id="fairdyne">Fairdyne</span> v.0.69 Common Test 4, by Joe Zeng. Input Edit by Ryan Smith</span>
+		<p><span><span id="fairdyne">Fairdyne</span> v.0.69.1 Common Test, by Joe Zeng. Input Edit by Ryan Smith</span>
 			<span>Undertale &copy; 2015 Toby Fox.</span>
 		</p>
 	</div>
