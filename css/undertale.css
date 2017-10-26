@@ -50,3 +50,32 @@ a:hover{
 }
 
 .muted, .unmuted {width:54px;height:31px;}
+
+#slidecontainer {
+	width:100% /* Width of the outside container */}
+.slider {
+	-webkit-appearance: none; /* override default css styles */
+	appearance: none;
+	width: 100%; /* Full-width */
+	height: 25px; /* Specified Height */
+	background: #d3d3d3; /* Grey background */
+	outline: none; /* Remove outline */
+	opacity: 0.7; /* set transparency (for mouse-over effects on hover */
+	-webkit-transition: .2s; /* 0.2 seconds transition on hover */
+	transition: opacity .2s;}
+/* Mover-over effects */
+.slider:hover {
+	opacity: 1; /* Fully shown on mouse-over */}
+/* The slider handle (use webkit (chrome, opera, safari, edge) and moz (firefox to override default look */
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none; /* override default look */
+	appearance: none;
+	width: 25px; /* set a specific slider handle width */
+	height: 25px; /* slider handle height */
+	background: #4CAF50; /* green background */
+	cursor: pointer; /* cursor on hover */}
+.slider::-moz-range-thumb {
+	width: 25px; /*Set a specific slider handle width */
+	height: 25px; /*slider handle height */
+	background: #4CAF50; /* green background */
+	cursor: pointer; /*cursor on hover */}
