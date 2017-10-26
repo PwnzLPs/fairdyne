@@ -52,7 +52,7 @@ a:hover{
 .muted, .unmuted {width:54px;height:31px;}
 
 #slidecontainer {
-	width:100% /* Width of the outside container */}
+	width:40% /* Width of the outside container */}
 .slider {
 	-webkit-appearance: none; /* override default css styles */
 	appearance: none;
