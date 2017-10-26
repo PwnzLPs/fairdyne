@@ -4,7 +4,7 @@
 	<!-- EDITED BY PWNZLPS
 	LAST UPDATE: 3/27/17 - 1:10PM -->
 	<meta charset=utf-8>
-	<title>NGAHHH! Simulator v0.69.1 Common Test</title>
+	<title>NGAHHH! Simulator v0.69.5 Common Test</title>
 	<link rel="stylesheet" href="css/undertale.css">
 
 	<script src="lib/lodash.min.js"></script>
@@ -71,17 +71,19 @@
 	</script>
 	</div>
 	<div id="slidercontainer">
-		<input type="range" min="0.0" max="0.7" value="0.7" class="slider" id="volumeRange">
+		<input type="range" min="0.0" max="0.7" value="0.7" id="volumeRange">
 		<p>Volume: <span id="volVal"></span></p>
 	</div>
 		<script>
 		var slider = document.getElementById("volumeRange");
 		var output = document.getElementById("volVal");
+		var volume
 		output.innerHTML = slider.value; //Display the default slider value
 		
 		slider.oninput = function() {
+			volume = this.value;
 			output.innerHTML = this.value;
-			Howler.volume(this.value); //Set Howler.volume equal to slider value
+			Howler.volume(volume); //Set Howler.volume equal to slider value
 		}
 	</script>
 	<script>
@@ -96,7 +98,7 @@
 	</script>
 
 	<div class="bottom-credits">
-		<p><span><span id="fairdyne">Fairdyne</span> v.0.69.1 Common Test, by Joe Zeng. Input Edit by Ryan Smith</span>
+		<p><span><span id="fairdyne">Fairdyne</span> v.0.69.5 Common Test, by Joe Zeng. Input Edit by Ryan Smith</span>
 			<span>Undertale &copy; 2015 Toby Fox.</span>
 		</p>
 	</div>
