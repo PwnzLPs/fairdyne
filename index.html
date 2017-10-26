@@ -71,9 +71,10 @@
 	</script>
 	</div>
 	<div id="slidercontainer">
-		<input type="range" min="0.0" max="0.7" value="0.7" class="slider" id="volumeRange" />
+		<input type="range" min="0.0" max="0.7" value="0.7" class="slider" id="volumeRange">
 		<p>Volume: <span id="volVal"></span></p>
-	<script>
+	</div>
+		<script>
 		var slider = document.getElementById("volumeRange");
 		var output = document.getElementById("volVal");
 		output.innerHTML = slider.value; //Display the default slider value
@@ -83,7 +84,6 @@
 			Howler.volume(this.value); //Set Howler.volume equal to slider value
 		}
 	</script>
-	</div>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
