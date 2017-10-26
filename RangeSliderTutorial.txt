@@ -4,8 +4,10 @@ https://www.w3schools.com/howto/howto_js_rangeslider.asp
 Step one: HTML
 
 <div id="slidecontainer">
-  <input type="range" min="0.0" max="1.0" value="0.7" class="slider" id="myRange">
+  <input type="range" min="0.0" max="1.0" value="0.7" class="slider" id="volumeRange">
+  <p>Volume: <span id="demo"></span></p> <!-- See if a way can be found to show this value as a percent instead of the actual value -->
  </div>
+ 
  
  
  Step two: CSS
@@ -54,7 +56,7 @@ Step one: HTML
 Step Three: Javascript
 
 <script>
-  var slider = document.getElementById("myRange");
+  var slider = document.getElementById("volumeRange");
   var output = document.getElementById("demo");
   output.innerHTML = slider.value; //Display the default slider value
   
