@@ -51,22 +51,15 @@ a:hover{
 
 .muted, .unmuted {width:108px;height:62px;}
 
-div.slidecontainer {
-	width:35%;
-	margin: auto;
-}
-
 #slidecontainer {
-	width:35% /* Width of the outside container */
-	margin-left: auto !important; /* Center the volume slider so it doesn't look out of place */
-	margin-right: auto !important; /* Center the volume slider so it doesn't look out of place */}
+	width:35%; /* Width of the outside container */
+	margin: auto; /* Center the volume slider so it doesn't look out of place */}
 .slider {
 	-webkit-appearance: none; /* override default css styles */
 	appearance: none;
 	width: 35%; /* Full-width */
 	height: 25px; /* Specified Height */
-	margin-left: auto; /* Center the volume slider so it doesn't look out of place */
-	margin-right: auto;
+	margin: auto; /* Center the volume slider so it doesn't look out of place */
 	background: #1d1d1d; /* Grey background */
 	outline: none; /* Remove outline */
 	opacity: 0.7; /* set transparency (for mouse-over effects on hover */
@@ -81,7 +74,7 @@ div.slidecontainer {
 	appearance: none;
 	width: 25px; /* set a specific slider handle width */
 	height: 25px; /* slider handle height */
-	background: #ffffff; /* green background */
+	background: #ffffff; /* white background */
 	cursor: pointer; /* cursor on hover */}
 .slider::-moz-range-thumb {
 	width: 25px; /*Set a specific slider handle width */
