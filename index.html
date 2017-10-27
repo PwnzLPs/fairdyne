@@ -4,7 +4,7 @@
 	<!-- EDITED BY PWNZLPS
 	LAST UPDATE: 3/27/17 - 1:10PM -->
 	<meta charset=utf-8>
-	<title>NGAHHH! Simulator v0.69.10 Common Test</title>
+	<title>NGAHHH! Simulator v0.69.11 Common Test</title>
 	<link rel="stylesheet" href="css/undertale.css">
 
 	<script src="lib/lodash.min.js"></script>
@@ -56,8 +56,8 @@
 			{
 				el.src='img/mutebox.png';
 				el.className="unmuted";
-				el.Width="162";
-				el.Height="93";
+				el.Width="81";
+				el.Height="46.5";
 				Howler.volume(0.7);
 				document.getElementById("volumeRange").disabled = false;
 				slider.value == "0.7";
@@ -67,8 +67,8 @@
 			{
 				el.src='img/unmutebox.png';
 				el.className="muted";
-				el.Width="162";
-				el.Height="93";
+				el.Width="81";
+				el.Height="46.5";
 				Howler.volume(0.0);
 				document.getElementById("volumeRange").disabled = true;
 				slider.value == "0.0";
@@ -80,7 +80,7 @@
 	</div>
 	<br />
 	<div id="slidercontainer">
-		<input type="range" min="0.1" max="0.7" value="0.7" step="0.1" class="slider" id="volumeRange"> <br />
+		<input type="range" min="0.0" max="0.7" value="0.7" step="0.01" class="slider" id="volumeRange"> <br />
 		<p>Volume: <span id="volVal"></span></p>
 	</div>
 		<script>
@@ -107,7 +107,7 @@
 	</script>
 
 	<div class="bottom-credits">
-		<p><span><span id="fairdyne">Fairdyne</span> v.0.69.10 Common Test, by Joe Zeng. Input Edit by Ryan Smith</span>
+		<p><span><span id="fairdyne">Fairdyne</span> v.0.69.11 Common Test, by Joe Zeng. Input Edit by Ryan Smith</span>
 			<span>Undertale &copy; 2015 Toby Fox.</span>
 		</p>
 	</div>
