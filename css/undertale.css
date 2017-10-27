@@ -52,12 +52,14 @@ a:hover{
 .muted, .unmuted {width:162px;height:93px;}
 
 #slidecontainer {
-	width:50% /* Width of the outside container */}
+	width:35% /* Width of the outside container */
+	margin: auto; /* Center the volume slider so it doesn't look out of place */}
 .slider {
 	-webkit-appearance: none; /* override default css styles */
 	appearance: none;
-	width: 50%; /* Full-width */
+	width: 35%; /* Full-width */
 	height: 25px; /* Specified Height */
+	margin: auto; /* Center the volume slider so it doesn't look out of place */
 	background: #d3d3d3; /* Grey background */
 	outline: none; /* Remove outline */
 	opacity: 0.7; /* set transparency (for mouse-over effects on hover */
