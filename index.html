@@ -48,35 +48,6 @@
 <body>
 	<div class="top-buttons">
 		<input type="image" src="img/mutebox.png" width="162" height="93" class="unmuted" onclick="toggle(this);"/>
-	<script>
-		var slider = document.getElementById("volumeRange");
-		var output = document.getElementById("volVal");
-		function toggle(el){
-			if(el.className!="unmuted")
-			{
-				el.src='img/mutebox.png';
-				el.className="unmuted";
-				el.Width="81";
-				el.Height="46.5";
-				Howler.volume(0.7);
-				document.getElementById("volumeRange").disabled = false;
-				slider.value == "0.7";
-				output.innerHTML = slider.value;
-			}
-			else if(el.className=="unmuted")
-			{
-				el.src='img/unmutebox.png';
-				el.className="muted";
-				el.Width="81";
-				el.Height="46.5";
-				Howler.volume(0.0);
-				document.getElementById("volumeRange").disabled = true;
-				slider.value == "0.0";
-				output.innerHTML = slider.value;
-			}
-			return false;
-		}
-	</script>
 	</div>
 	<br />
 	<div id="slidercontainer">
@@ -93,6 +64,34 @@
 			volume = this.value;
 			output.innerHTML = this.value;
 			Howler.volume(volume); //Set Howler.volume equal to slider value
+		}
+	</script>
+	<script>
+		var slider = document.getElementById("volumeRange");
+		var output = document.getElementById("volVal");
+		function toggle(el){
+			if(el.className!="unmuted")
+			{
+				el.src='img/mutebox.png';
+				el.className="unmuted";
+				el.Width="81";
+				el.Height="46.5";
+				Howler.volume(slider.value);
+				document.getElementById("volumeRange").disabled = false;
+				output.innerHTML = slider.value;
+			}
+			else if(el.className=="unmuted")
+			{
+				el.src='img/unmutebox.png';
+				el.className="muted";
+				el.Width="81";
+				el.Height="46.5";
+				Howler.volume(0.0);
+				document.getElementById("volumeRange").disabled = true;
+				slider.value == '0.0';
+				output.innerHTML = slider.value;
+			}
+			return false;
 		}
 	</script>
 	<script>
