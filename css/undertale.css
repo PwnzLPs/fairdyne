@@ -49,10 +49,10 @@ a:hover{
 	color: #33cccc;
 }
 
-.muted, .unmuted {width:108px;height:62px;}
+.muted, .unmuted {width:81px;height:46.5px;}
 
 .slidecontainer {
-	width: 35%; /* Width of the outside container */
+	width: 25%; /* Width of the outside container */
 	margin-left: 0 auto !important; /* Center the volume slider so it doesn't look out of place */
 	margin-right: 0 auto !important; 
 	text-align: center;
@@ -60,7 +60,7 @@ a:hover{
 .slider {
 	-webkit-appearance: none; /* override default css styles */
 	appearance: none;
-	width: 35%; /* Full-width */
+	width: 25%; /* Full-width */
 	height: 15px; /* Specified Height */
 	background: #1d1d1d; /* Grey background */
 	outline: none; /* Remove outline */
