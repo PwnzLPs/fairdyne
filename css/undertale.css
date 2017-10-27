@@ -85,3 +85,8 @@ a:hover{
 	height: 15px; /*slider handle height */
 	background: #ffffff; /* green background */
 	cursor: pointer; /*cursor on hover */}
+
+P {
+	text-align: center; /* Center the Volume text, so it doesn't look out of place */
+	font-size: 12px; /* Set font size to 12, so that it isn't too big for small displays */
+}
