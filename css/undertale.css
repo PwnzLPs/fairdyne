@@ -58,7 +58,7 @@ a:hover{
 	-webkit-appearance: none; /* override default css styles */
 	appearance: none;
 	width: 35%; /* Full-width */
-	height: 25px; /* Specified Height */
+	height: 15px; /* Specified Height */
 	margin: auto; /* Center the volume slider so it doesn't look out of place */
 	background: #1d1d1d; /* Grey background */
 	outline: none; /* Remove outline */
@@ -73,11 +73,11 @@ a:hover{
 	-webkit-appearance: none; /* override default look */
 	appearance: none;
 	width: 25px; /* set a specific slider handle width */
-	height: 25px; /* slider handle height */
+	height: 15px; /* slider handle height */
 	background: #ffffff; /* white background */
 	cursor: pointer; /* cursor on hover */}
 .slider::-moz-range-thumb {
 	width: 25px; /*Set a specific slider handle width */
-	height: 25px; /*slider handle height */
+	height: 15px; /*slider handle height */
 	background: #ffffff; /* green background */
 	cursor: pointer; /*cursor on hover */}
