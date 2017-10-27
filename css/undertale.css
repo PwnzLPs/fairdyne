@@ -53,13 +53,13 @@ a:hover{
 
 #slidecontainer {
 	width:35%; /* Width of the outside container */
-	margin: auto; /* Center the volume slider so it doesn't look out of place */}
+	margin: auto !important; /* Center the volume slider so it doesn't look out of place */}
 .slider {
 	-webkit-appearance: none; /* override default css styles */
 	appearance: none;
 	width: 35%; /* Full-width */
 	height: 15px; /* Specified Height */
-	margin: auto; /* Center the volume slider so it doesn't look out of place */
+	margin: auto !important; /* Center the volume slider so it doesn't look out of place */
 	background: #1d1d1d; /* Grey background */
 	outline: none; /* Remove outline */
 	opacity: 0.7; /* set transparency (for mouse-over effects on hover */
@@ -67,7 +67,8 @@ a:hover{
 	transition: opacity .2s;}
 /* Mover-over effects */
 .slider:hover {
-	opacity: 1; /* Fully shown on mouse-over */}
+	opacity: 1; /* Fully shown on mouse-over */
+	margin: auto !important;}
 /* The slider handle (use webkit (chrome, opera, safari, edge) and moz (firefox to override default look */
 .slider::-webkit-slider-thumb {
 	-webkit-appearance: none; /* override default look */
