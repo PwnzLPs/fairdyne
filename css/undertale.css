@@ -51,6 +51,11 @@ a:hover{
 
 .muted, .unmuted {width:108px;height:62px;}
 
+div.slidecontainer {
+	width:35%;
+	margin: auto;
+}
+
 #slidecontainer {
 	width:35% /* Width of the outside container */
 	margin-left: auto !important; /* Center the volume slider so it doesn't look out of place */
