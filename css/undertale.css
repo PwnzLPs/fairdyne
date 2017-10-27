@@ -60,7 +60,6 @@ a:hover{
 	appearance: none;
 	width: 35%; /* Full-width */
 	height: 15px; /* Specified Height */
-	margin: 0 auto !important; /* Center the volume slider so it doesn't look out of place */
 	background: #1d1d1d; /* Grey background */
 	outline: none; /* Remove outline */
 	opacity: 0.7; /* set transparency (for mouse-over effects on hover */
