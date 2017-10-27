@@ -49,14 +49,14 @@ a:hover{
 	color: #33cccc;
 }
 
-.muted, .unmuted {width:54px;height:31px;}
+.muted, .unmuted {width:162px;height:93px;}
 
 #slidecontainer {
-	width:40% /* Width of the outside container */}
+	width:50% /* Width of the outside container */}
 .slider {
 	-webkit-appearance: none; /* override default css styles */
 	appearance: none;
-	width: 100%; /* Full-width */
+	width: 50%; /* Full-width */
 	height: 25px; /* Specified Height */
 	background: #d3d3d3; /* Grey background */
 	outline: none; /* Remove outline */
