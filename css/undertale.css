@@ -54,7 +54,9 @@ a:hover{
 .slidecontainer {
 	width: 35%; /* Width of the outside container */
 	margin-left: 0 auto !important; /* Center the volume slider so it doesn't look out of place */
-	margin-right: 0 auto !important; }
+	margin-right: 0 auto !important; 
+	text-align: center;
+	padding: 4px;}
 .slider {
 	-webkit-appearance: none; /* override default css styles */
 	appearance: none;
