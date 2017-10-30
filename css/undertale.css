@@ -88,5 +88,5 @@ a:hover{
 
 #container p {
 	display: inline; /* Display inline so that it doesn't make a line break */
-	font-size: 12px; /* Set font size to 12, so that it isn't too big for small displays */
+	font-size: 10px; /* Set font size to 12, so that it isn't too big for small displays */
 }
