@@ -85,8 +85,8 @@ a:hover{
 	height: 15px; /*slider handle height */
 	background: #ffffff; /* green background */
 	cursor: pointer; /*cursor on hover */}
-
-.volText {
-	display: inline; /* Display inline so it doesn't make a line break */
-	font-size: 10px; /* Set font size to 10 so it isn't too big for small displays (tested on 1280x720px display */
+label {
+	font-size: 12px; /* Set font size to 12 pixels */
+	text-align: right !important; /* Align text to the right and set align as important so it *shouldn't* get overrode */
+	float: left; /* Set float to left so it shouldn't break the line */
 }
