@@ -51,10 +51,18 @@ a:hover{
 
 .muted, .unmuted {width:54px;height:31px;}
 
+label {
+	font-size: 12px; /* Set font size to 12 pixels */
+	text-align: right !important; /* Align text to the right and set align as important so it *shouldn't* get overrode */
+	float: left; /* Set float to left so it shouldn't break the line */
+	margin-left: 5px;
+}
+
 .slidecontainer {
 	width: 25%; /* Width of the outside container */
 	margin-left: 0 auto !important; /* Center the volume slider so it doesn't look out of place */
 	margin-right: 0 auto !important; 
+	float: left;
 	text-align: center;
 	padding: 4px;}
 .slider {
@@ -85,8 +93,3 @@ a:hover{
 	height: 15px; /*slider handle height */
 	background: #ffffff; /* green background */
 	cursor: pointer; /*cursor on hover */}
-label {
-	font-size: 12px; /* Set font size to 12 pixels */
-	text-align: right !important; /* Align text to the right and set align as important so it *shouldn't* get overrode */
-	float: left; /* Set float to left so it shouldn't break the line */
-}
