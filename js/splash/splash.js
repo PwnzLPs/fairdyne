@@ -52,7 +52,7 @@ function SplashScene() {
 	this.undyne_hair_sprite.scale.set(2, 2);
 	this.undyne_hair_sprite.animationSpeed = 4/30;
 
-	this.press_start_text = new PIXI.extras.BitmapText("press , to start", { font: "15px Numbers", align: "center" });
+	this.press_start_text = new PIXI.extras.BitmapText("press z or , to start", { font: "15px Undertale", align: "center" });
 	this.press_start_text.position.set(210, 360);
 	this.press_start_text.alpha = 0;
 
