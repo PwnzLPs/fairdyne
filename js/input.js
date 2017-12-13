@@ -32,7 +32,7 @@ function isKeyDown(key) {
 
 
 function onKeyDown(e) {
-	if ((e.keyCode == 65) {  // A = left
+	if (e.keyCode == 65) {  // A = left
 		handleKeyInput("left", "down");
 	} else if (e.keyCode == 87) {  // W = up
 		handleKeyInput("up", "down");
