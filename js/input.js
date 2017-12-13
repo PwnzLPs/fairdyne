@@ -60,29 +60,17 @@ function onKeyDown(e) {
 }
 
 function onKeyUp(e) {
-	if (e.keyCode == 65) {  // A = left
+	if ((e.keyCode == 65) || (e.keyCode == 37)) {  // A = left
 		handleKeyInput("left", "up");
-	} else if (e.keyCode == 87) {  // W = up
+	} else if ((e.keyCode == 87) || (e.keyCode == 38)) {  // W = up
 		handleKeyInput("up", "up");
-	} else if (e.keyCode == 68) {  // D = right
+	} else if ((e.keyCode == 68) || (e.keyCode == 39)) {  // D = right
 		handleKeyInput("right", "up");
-	} else if (e.keyCode == 83) {  // S = down
+	} else if ((e.keyCode == 83) || (e.keyCode == 40)) {  // S = down
 		handleKeyInput("down", "up");
-	} else if (e.keyCode == 190) {  // . = B
+	} else if ((e.keyCode == 190) || (e.keyCode == 88)) {  // . = B
 		handleKeyInput("B", "up");
-	} else if (e.keyCode == 188) {  // , = A
-		handleKeyInput("A", "up");
-	} else if (e.keyCode == 37) { // left
-		handleKeyInput("left", "up");
-	} else if (e.keyCode == 38) { // up
-		handleKeyInput("up", "up");
-	} else if (e.keyCode == 39) { // right
-		handleKeyInput("right", "up");
-	} else if (e.keyCode == 40) { // down
-		handleKeyInput("down", "up");
-	} else if (e.keyCode == 88) { // X = B
-		handleKeyInput("B", "up");
-	} else if (e.keyCode == 90) { // Z = A
+	} else if ((e.keyCode == 188) || (e.keyCode == 90)) {  // , = A
 		handleKeyInput("A", "up");
 	}
 }
