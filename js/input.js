@@ -32,7 +32,7 @@ function isKeyDown(key) {
 
 
 function onKeyDown(e) {
-	if (e.keyCode == 65) {  // A = left
+	if ((e.keyCode == 65) {  // A = left
 		handleKeyInput("left", "down");
 	} else if (e.keyCode == 87) {  // W = up
 		handleKeyInput("up", "down");
@@ -40,21 +40,21 @@ function onKeyDown(e) {
 		handleKeyInput("right", "down");
 	} else if (e.keyCode == 83) {  // S = down
 		handleKeyInput("down", "down");
-	} else if (e.keyCode == 190) {  // . = B
+	} else if (e.keyCode == 190)  // . = B
 		handleKeyInput("B", "down");
 	} else if (e.keyCode == 188) {  // , = A
 		handleKeyInput("A", "down");
-	} else if (e.keycode == 37) { // left
+	} else if (e.keyCode == 37) { // left
 		handleKeyInput("left", "down");
 	} else if (e.keycode == 38) { // up
 		handleKeyInput("up", "down");
-	} else if (e.keycode == 39) { // right
+	} else if (e.keyCode == 39) { // right
 		handleKeyInput("right", "down");
-	} else if (e.keycode == 40) { // down
+	} else if (e.keyCode == 40) { // down
 		handleKeyInput("down", "down");
-	} else if (e.keycode == 88) { // X = B
+	} else if (e.keyCode == 88) { // X = B
 		handleKeyInput("B", "down");
-	} else if (e.keycode == 90) { // Z = A
+	} else if (e.keyCode == 90) { // Z = A
 		handleKeyInput("A", "down");
 	}
 }
@@ -72,17 +72,17 @@ function onKeyUp(e) {
 		handleKeyInput("B", "up");
 	} else if (e.keyCode == 188) {  // , = A
 		handleKeyInput("A", "up");
-	} else if (e.keycode == 37) { // left
+	} else if (e.keyCode == 37) { // left
 		handleKeyInput("left", "up");
-	} else if (e.keycode == 38) { // up
+	} else if (e.keyCode == 38) { // up
 		handleKeyInput("up", "up");
-	} else if (e.keycode == 39) { // right
+	} else if (e.keyCode == 39) { // right
 		handleKeyInput("right", "up");
-	} else if (e.keycode == 40) { // down
+	} else if (e.keyCode == 40) { // down
 		handleKeyInput("down", "up");
-	} else if (e.keycode == 88) { // X = B
+	} else if (e.keyCode == 88) { // X = B
 		handleKeyInput("B", "up");
-	} else if (e.keycode == 90) { // Z = A
+	} else if (e.keyCode == 90) { // Z = A
 		handleKeyInput("A", "up");
 	}
 }
