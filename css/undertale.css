@@ -19,6 +19,20 @@ div.top-buttons{
 	font-size: 18px;
 }
 
+#volVal {
+	position: relative;
+	bottom: 10px;
+	left: 20px;
+}
+
+#muteButton {
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px; /* The object get pushed FROM the direction in question. So, if I set left to 50px, the object would get pushed 50px to the right. */
+}
+
 div.bottom-credits{
 	position: absolute;
 	text-align: center;
