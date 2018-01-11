@@ -16,7 +16,9 @@ canvas {
 div.top-buttons{
 	padding: 4px;
 	margin: auto;
-	text-align: center;
+	text-align: right;
+	width: 54px;
+	height: 31px;
 }
 
 div.bottom-credits{
