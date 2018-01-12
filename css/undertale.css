@@ -31,7 +31,7 @@ div.top-buttons{
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
-	right: 0px; /* The object get pushed FROM the direction in question. So, if I set left to 50px, the object would get pushed 50px to the right. */
+	right: 10px; /* The object get pushed FROM the direction in question. So, if I set left to 50px, the object would get pushed 50px to the right. */
 }
 
 div.bottom-credits{
